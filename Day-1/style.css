@@ -1,0 +1,36 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #ffffff;
+  background-color: #000b16;
+  padding: 15px;
+}
+
+.card {
+  background-color: #6c757d;
+  padding: 15px;
+  border-radius: 0.5rem;
+  color: #ffffff;
+}
+.card h1 {
+  font-size: 32px;
+  color: #00daf3;
+}
+.card p {
+  font-size: 16px;
+  color: #ffffff;
+}
+.card .btn {
+  background-color: #000b16;
+  border: 2px solid #00daf3;
+  color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.card .btn:hover {
+  background-color: #00daf3;
+  color: #000b16;
+  border-color: #00daf3;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+// how to declear variables in sass
+
+$bg-color: #000b16;
+$primary-color: #00daf3;
+$secondary-color: #6c757d;
+$font-family: "Helvetica Neue", Arial, sans-serif;
+$base-padding: 15px;
+$text-color: #ffffff;
+$text-size: 16px;
+
+body {
+  font-family: $font-family;
+  color: $text-color;
+  background-color: $bg-color;
+  padding: $base-padding;
+}
+
+// Nesting example for a card component
+
+.card {
+  background-color: $secondary-color;
+  padding: $base-padding;
+  border-radius: 0.5rem;
+  color: $text-color;
+
+  h1 {
+    font-size: $text-size * 2;
+    color: $primary-color;
+  }
+
+  p {
+    font-size: $text-size;
+    color: $text-color;
+  }
+
+  .btn {
+    background-color: #000b16;
+    border: 2px solid $primary-color;
+    color: $text-color;
+    padding: $base-padding $base-padding * 2;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: $text-size;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+    &:hover {
+      background-color: $primary-color;
+      color: $bg-color;
+      border-color: $primary-color;
+    }
+  }
+}
