@@ -1,0 +1,57 @@
+@use "./partials/variables" as v;
+@use "./partials/mixins" as m;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: v.$bg-color;
+  color: v.$primary-color;
+  @include m.flex-center;
+}
+.container {
+  height: 40vh;
+  width: 40vh;
+  border: 2px solid v.$text-color;
+  @include m.rounded(20px);
+
+  .top {
+    @include m.width-height;
+    border-bottom: 2px solid v.$secondary-color;
+    @include m.rounded(20px 20px 0 0);
+    margin-bottom: 2vh;
+    @include m.flex-center;
+    font-weight: bolder;
+    font-size: v.$text-size * 5;
+  }
+
+  .bottom {
+    @include m.width-height;
+    border-top: 2px solid v.$secondary-color;
+    @include m.rounded(0 0 20px 20px);
+    padding: v.$base-padding * 2;
+
+    button {
+      width: 10vh;
+      background-color: v.$primary-color;
+      color: v.$bg-color;
+      padding: v.$base-padding;
+      font-size: v.$text-size;
+      @include m.rounded(10px 0 10px 0);
+      border: 2px solid v.$primary-color;
+      transition: 0.3s;
+
+      &:hover {
+        background-color: v.$bg-color;
+        border: 2px solid v.$primary-color;
+        color: v.$primary-color;
+        @include m.rounded(0 10px 0 10px);
+      }
+    }
+  }
+}

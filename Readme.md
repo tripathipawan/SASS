@@ -11,7 +11,7 @@ Each folder (`Day-1`, `Day-2`, etc.) contains the code I practiced that day, alo
 | Day | Topics Covered | Status |
 |-----|-----------------|--------|
 | **Day 1** | Setup (Live Sass Compiler), Variables, Nesting, `&` parent selector | ✅ Done |
-| **Day 2** | Partials (`_filename.scss`), `@use` & `@forward`, Mixins | ⬜ Pending |
+| **Day 2** | Partials (`_filename.scss`), `@use` & `@forward`, Mixins | ✅ Done |
 | **Day 3** | Functions (`@function`), Operators, `@extend` / Inheritance | ⬜ Pending |
 | **Day 4** | Control Directives (`@if`, `@each`, `@for`, `@while`), Maps | ⬜ Pending |
 | **Day 5** | Mini Project — Navbar + Grid system using all concepts learned | ⬜ Pending |
@@ -21,12 +21,12 @@ Each folder (`Day-1`, `Day-2`, etc.) contains the code I practiced that day, alo
 ## ✅ Progress Tracker
 
 - [x] Day 1 — Foundations (Variables, Nesting)
-- [ ] Day 2 — Reusability (Partials, Mixins)
+- [x] Day 2 — Reusability (Partials, Mixins)
 - [ ] Day 3 — Logic & Math (Functions, Operators, Extend)
 - [ ] Day 4 — Control Flow (If/Each/For/While, Maps)
 - [ ] Day 5 — Practical Application (Mini Project)
 
-**Total Progress: 1 / 5 Days Complete**
+**Total Progress: 2 / 5 Days Complete**
 
 ---
 
@@ -41,7 +41,7 @@ Each folder (`Day-1`, `Day-2`, etc.) contains the code I practiced that day, alo
 ## 📂 Folder Structure
 
 ```
-SAAS/
+SASS/
 ├─ Day-1/
 │  ├─ index.html
 │  ├─ Readme.md
@@ -49,8 +49,21 @@ SAAS/
 │  ├─ style.css.map
 │  └─ style.scss
 ├─ Day-2/
-│  └─ ...
-└─ Readme.md   (this file)
+│  ├─ partials/
+│  │  ├─ _mixins.scss
+│  │  └─ _variables.scss
+│  ├─ index.html
+│  ├─ Readme.md
+│  ├─ style.css
+│  ├─ style.css.map
+│  └─ style.scss
+├─ Day-3/
+│  ├─ index.html
+│  ├─ style.css
+│  ├─ style.css.map
+│  └─ style.scss
+└─ Readme.md
+
 ```
 
 ---

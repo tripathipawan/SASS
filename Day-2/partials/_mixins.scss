@@ -1,0 +1,14 @@
+@mixin flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin width-height{
+  width: 40vh;
+  height: 19vh;
+}
+
+@mixin rounded($pos){
+  border-radius: $pos;
+}
