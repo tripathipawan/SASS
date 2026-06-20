@@ -58,11 +58,16 @@ SASS/
 │  ├─ style.css.map
 │  └─ style.scss
 ├─ Day-3/
+│  ├─ particals/
+│  │  ├─ _mixins.scss
+│  │  └─ _variables.scss
 │  ├─ index.html
+│  ├─ Readme.md
 │  ├─ style.css
 │  ├─ style.css.map
 │  └─ style.scss
 └─ Readme.md
+
 
 ```
 
