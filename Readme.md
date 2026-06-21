@@ -13,7 +13,7 @@ Each folder (`Day-1`, `Day-2`, etc.) contains the code I practiced that day, alo
 | **Day 1** | Setup (Live Sass Compiler), Variables, Nesting, `&` parent selector | ✅ Done |
 | **Day 2** | Partials (`_filename.scss`), `@use` & `@forward`, Mixins | ✅ Done |
 | **Day 3** | Functions (`@function`), Operators, `@extend` / Inheritance | ✅ Done |
-| **Day 4** | Control Directives (`@if`, `@each`, `@for`, `@while`), Maps | ⬜ Pending |
+| **Day 4** | Control Directives (`@if`, `@each`, `@for`, `@while`), Maps | ✅ Done |
 | **Day 5** | Mini Project — Navbar + Grid system using all concepts learned | ⬜ Pending |
 
 ---
@@ -23,7 +23,7 @@ Each folder (`Day-1`, `Day-2`, etc.) contains the code I practiced that day, alo
 - [x] Day 1 — Foundations (Variables, Nesting)
 - [x] Day 2 — Reusability (Partials, Mixins)
 - [x] Day 3 — Logic & Math (Functions, Operators, Extend)
-- [ ] Day 4 — Control Flow (If/Each/For/While, Maps)
+- [x] Day 4 — Control Flow (If/Each/For/While, Maps)
 - [ ] Day 5 — Practical Application (Mini Project)
 
 **Total Progress: 2 / 5 Days Complete**
@@ -66,7 +66,14 @@ SASS/
 │  ├─ style.css
 │  ├─ style.css.map
 │  └─ style.scss
+├─ Day-4/
+│  ├─ index.html
+│  ├─ Readme.md
+│  ├─ style.css
+│  ├─ style.css.map
+│  └─ style.scss
 └─ Readme.md
+
 
 
 ```
