@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+}
+
+nav {
+  height: 10vh;
+  background-color: #004b15;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+nav .logo {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #c3ff84;
+}
+nav .logo .dev {
+  font-weight: 800;
+  color: #c6ffc8;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0px 10px;
+  color: #c6ffc8;
+}
+
+.hero {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero h1 {
+  color: #c6ffc8;
+  font-size: 3.5rem;
+}
+.hero p {
+  color: #c3ff84;
+  font-size: 2rem;
+}
+.hero button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 2px solid #88ff92;
+  background-color: #000;
+  color: #c3ff84;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.cards-container .card {
+  gap: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  gap: 15px;
+}
+.cards-container .card-html {
+  border-color: orange;
+}
+.cards-container .card-html h3 {
+  color: orange;
+}
+.cards-container .card-css {
+  border-color: dodgerblue;
+}
+.cards-container .card-css h3 {
+  color: dodgerblue;
+}
+.cards-container .card-js {
+  border-color: gold;
+}
+.cards-container .card-js h3 {
+  color: gold;
+}
+.cards-container .card h3 {
+  font-size: 2rem;
+}
+.cards-container .card p {
+  font-size: larger;
+  color: #c3ff84;
+}/*# sourceMappingURL=style.css.map */

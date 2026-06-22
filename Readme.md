@@ -8,13 +8,27 @@ Each folder (`Day-1`, `Day-2`, etc.) contains the code I practiced that day, alo
 
 ## 📌 Roadmap / Index
 
+### Phase 1 — Core Concepts (Days 1–5)
+
 | Day | Topics Covered | Status |
 |-----|-----------------|--------|
 | **Day 1** | Setup (Live Sass Compiler), Variables, Nesting, `&` parent selector | ✅ Done |
 | **Day 2** | Partials (`_filename.scss`), `@use` & `@forward`, Mixins | ✅ Done |
 | **Day 3** | Functions (`@function`), Operators, `@extend` / Inheritance | ✅ Done |
 | **Day 4** | Control Directives (`@if`, `@each`, `@for`, `@while`), Maps | ✅ Done |
-| **Day 5** | Mini Project — Navbar + Grid system using all concepts learned | ⬜ Pending |
+| **Day 5** | Mini Project — Portfolio landing page (Navbar + Hero + Card grid) using all concepts learned | ✅ Done |
+
+### Phase 2 — Practice Projects (Days 6–10)
+
+Small, focused projects (not large builds) to reinforce Phase 1 concepts until they feel natural to use without overthinking.
+
+| Day | Project | Concepts Reinforced | Status |
+|-----|---------|----------------------|--------|
+| **Day 6** | Profile / Bio Card | Variables, Nesting, `&` | ⬜ Pending |
+| **Day 7** | FAQ Accordion (styling only) | Partials, `@use`, Mixins | ⬜ Pending |
+| **Day 8** | Testimonial Cards Section | Functions, Operators, `@extend` / Placeholders | ⬜ Pending |
+| **Day 9** | Badge / Tag Generator (colors, sizes) | Maps, `@each`, `@for` | ⬜ Pending |
+| **Day 10** | Simple Pricing Table | All concepts combined (mini-review project) | ⬜ Pending |
 
 ---
 
@@ -24,9 +38,14 @@ Each folder (`Day-1`, `Day-2`, etc.) contains the code I practiced that day, alo
 - [x] Day 2 — Reusability (Partials, Mixins)
 - [x] Day 3 — Logic & Math (Functions, Operators, Extend)
 - [x] Day 4 — Control Flow (If/Each/For/While, Maps)
-- [ ] Day 5 — Practical Application (Mini Project)
+- [x] Day 5 — Practical Application (Mini Project)
+- [ ] Day 6 — Practice: Profile Card
+- [ ] Day 7 — Practice: FAQ Accordion
+- [ ] Day 8 — Practice: Testimonial Cards
+- [ ] Day 9 — Practice: Badge Generator
+- [ ] Day 10 — Practice: Pricing Table
 
-**Total Progress: 2 / 5 Days Complete**
+**Total Progress: 5 / 10 Days Complete**
 
 ---
 
@@ -58,7 +77,7 @@ SASS/
 │  ├─ style.css.map
 │  └─ style.scss
 ├─ Day-3/
-│  ├─ particals/
+│  ├─ partials/
 │  │  ├─ _mixins.scss
 │  │  └─ _variables.scss
 │  ├─ index.html
@@ -72,14 +91,25 @@ SASS/
 │  ├─ style.css
 │  ├─ style.css.map
 │  └─ style.scss
-└─ Readme.md
-
-
-
+├─ Day-5/
+│  ├─ partials/
+│  │  ├─ _mixins.scss
+│  │  └─ _variables.scss
+│  ├─ index.html
+│  ├─ Readme.md
+│  ├─ style.css
+│  ├─ style.css.map
+│  └─ style.scss
+├─ Day-6/   (upcoming)
+├─ Day-7/   (upcoming)
+├─ Day-8/   (upcoming)
+├─ Day-9/   (upcoming)
+├─ Day-10/  (upcoming)
+└─ Readme.md   (this file)
 ```
 
 ---
 
 ## 🎯 Goal
 
-To become confident in writing maintainable, DRY (Don't Repeat Yourself) stylesheets using SASS, and apply it in real-world / professional projects.
+To become confident in writing maintainable, DRY (Don't Repeat Yourself) stylesheets using SASS, and apply it in real-world / professional projects — building enough hands-on practice (Days 6–10) that variables, mixins, functions, and control directives become second nature before moving on to learning Tailwind CSS next.
