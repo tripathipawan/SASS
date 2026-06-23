@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #000f1e;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  color: #000020;
+  border: 2px solid #000020;
+  padding: 20px 15px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #c7c7ff;
+}
+.profile-card .avatar {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid #000020;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile-card .name {
+  margin: 15px 0 5px 0;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.profile-card .role {
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.profile-card .bio {
+  width: 80%;
+  margin: 10px auto;
+}
+.profile-card .socials {
+  margin-top: 20px;
+  padding: 10px;
+}
+.profile-card .socials a {
+  display: inline-block;
+  background-color: #000f1e;
+  color: #c7c7ff;
+  border: 2px solid #c7c7ff;
+  outline: none;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.profile-card .socials a:hover {
+  background-color: #c7c7ff;
+  color: #000020;
+  border: 2px solid #000020;
+  transform: scale(1.05);
+}/*# sourceMappingURL=style.css.map */
