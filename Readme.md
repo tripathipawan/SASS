@@ -25,7 +25,7 @@ Small, focused projects (not large builds) to reinforce Phase 1 concepts until t
 | Day        | Project                               | Concepts Reinforced                            | Status     |
 | ---------- | ------------------------------------- | ---------------------------------------------- | ---------- |
 | **Day 6**  | Profile / Bio Card                    | Variables, Nesting, `&`                        | ✅ Done    |
-| **Day 7**  | FAQ Accordion (styling only)          | Partials, `@use`, Mixins                       | ⬜ Pending |
+| **Day 7**  | FAQ Accordion (styling only)          | Partials, `@use`, Mixins                       | ✅ Done |
 | **Day 8**  | Testimonial Cards Section             | Functions, Operators, `@extend` / Placeholders | ⬜ Pending |
 | **Day 9**  | Badge / Tag Generator (colors, sizes) | Maps, `@each`, `@for`                          | ⬜ Pending |
 | **Day 10** | Simple Pricing Table                  | All concepts combined (mini-review project)    | ⬜ Pending |
@@ -40,7 +40,7 @@ Small, focused projects (not large builds) to reinforce Phase 1 concepts until t
 - [x] Day 4 — Control Flow (If/Each/For/While, Maps)
 - [x] Day 5 — Practical Application (Mini Project)
 - [x] Day 6 — Practice: Profile Card
-- [ ] Day 7 — Practice: FAQ Accordion
+- [x] Day 7 — Practice: FAQ Accordion
 - [ ] Day 8 — Practice: Testimonial Cards
 - [ ] Day 9 — Practice: Badge Generator
 - [ ] Day 10 — Practice: Pricing Table
@@ -103,6 +103,15 @@ SASS/
 ├─ Day-6/
 │  ├─ assets/
 │  │  └─ img.jpg
+│  ├─ partials/
+│  │  ├─ _mixins.scss
+│  │  └─ _variables.scss
+│  ├─ index.html
+│  ├─ Readme.md
+│  ├─ style.css
+│  ├─ style.css.map
+│  └─ style.scss
+├─ Day-7/
 │  ├─ partials/
 │  │  ├─ _mixins.scss
 │  │  └─ _variables.scss
