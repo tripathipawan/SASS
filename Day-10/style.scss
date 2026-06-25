@@ -1,0 +1,105 @@
+@use "./partials/variables" as *;
+@use "./partials/mixins" as *;
+
+@function mul($e) {
+  @return 8px * $e;
+}
+
+$plan-badge: (
+  basic: #898989,
+  medium: #009c00,
+  premium: #da9100,
+);
+
+%card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: mul(2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: $bg;
+  color: $text;
+  @include flex-center;
+}
+
+.pricing {
+  width: 80%;
+
+  .pricing-title {
+    color: $heading;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .pricing-subtitle {
+    color: $text;
+    text-align: center;
+    margin-bottom: mul(2);
+  }
+
+  .pricing-grid {
+    @extend %card;
+    margin-top: mul(5);
+
+    .plan {
+      border: 2px solid $border;
+      padding: mul(3);
+      text-align: center;
+
+      .plan-pro {
+        border-color: $heading;
+        transform: scale(1.05);
+      }
+
+      @each $key, $value in $plan-badge {
+        .plan-#{$key} {
+          background-color: $value;
+          color: #fff;
+          padding: mul(1);
+          font-size: 0.8rem;
+          font-weight: 800;
+          border-radius: mul(2);
+        }
+      }
+
+      .plan-price {
+        margin-top: mul(2);
+
+        span {
+          font-size: 0.8rem;
+        }
+      }
+
+      .plan-features li {
+        list-style: none;
+        margin: mul(1) 0;
+      }
+
+      .plan-btn {
+        padding: mul(1);
+        border-radius: 10px;
+        margin-top: mul(1);
+        outline: none;
+        border: 2px solid $border;
+        background-color: $bg;
+        color: $text;
+        transition: all 0.2s ease;
+
+        &:hover {
+          background-color: $text;
+          color: $bg;
+        }
+      }
+    }
+  }
+}

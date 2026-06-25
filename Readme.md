@@ -22,13 +22,13 @@ Each folder (`Day-1`, `Day-2`, etc.) contains the code I practiced that day, alo
 
 Small, focused projects (not large builds) to reinforce Phase 1 concepts until they feel natural to use without overthinking.
 
-| Day        | Project                               | Concepts Reinforced                            | Status     |
-| ---------- | ------------------------------------- | ---------------------------------------------- | ---------- |
-| **Day 6**  | Profile / Bio Card                    | Variables, Nesting, `&`                        | ✅ Done    |
+| Day        | Project                               | Concepts Reinforced                            | Status  |
+| ---------- | ------------------------------------- | ---------------------------------------------- | ------- |
+| **Day 6**  | Profile / Bio Card                    | Variables, Nesting, `&`                        | ✅ Done |
 | **Day 7**  | FAQ Accordion (styling only)          | Partials, `@use`, Mixins                       | ✅ Done |
-| **Day 8**  | Testimonial Cards Section             | Functions, Operators, `@extend` / Placeholders | ⬜ Pending |
-| **Day 9**  | Badge / Tag Generator (colors, sizes) | Maps, `@each`, `@for`                          | ⬜ Pending |
-| **Day 10** | Simple Pricing Table                  | All concepts combined (mini-review project)    | ⬜ Pending |
+| **Day 8**  | Testimonial Cards Section             | Functions, Operators, `@extend` / Placeholders | ✅ Done |
+| **Day 9**  | Badge / Tag Generator (colors, sizes) | Maps, `@each`, `@for`                          | ✅ Done |
+| **Day 10** | Simple Pricing Table                  | All concepts combined (mini-review project)    | ✅ Done |
 
 ---
 
@@ -41,9 +41,9 @@ Small, focused projects (not large builds) to reinforce Phase 1 concepts until t
 - [x] Day 5 — Practical Application (Mini Project)
 - [x] Day 6 — Practice: Profile Card
 - [x] Day 7 — Practice: FAQ Accordion
-- [ ] Day 8 — Practice: Testimonial Cards
-- [ ] Day 9 — Practice: Badge Generator
-- [ ] Day 10 — Practice: Pricing Table
+- [x] Day 8 — Practice: Testimonial Cards
+- [x] Day 9 — Practice: Badge Generator
+- [x] Day 10 — Practice: Pricing Table
 
 **Total Progress: 5 / 10 Days Complete**
 
@@ -60,8 +60,18 @@ Small, focused projects (not large builds) to reinforce Phase 1 concepts until t
 ## 📂 Folder Structure
 
 ```
+
 SASS/
 ├─ Day-1/
+│  ├─ index.html
+│  ├─ Readme.md
+│  ├─ style.css
+│  ├─ style.css.map
+│  └─ style.scss
+├─ Day-10/
+│  ├─ partials/
+│  │  ├─ _mixins.scss
+│  │  └─ _variables.scss
 │  ├─ index.html
 │  ├─ Readme.md
 │  ├─ style.css
@@ -120,7 +130,26 @@ SASS/
 │  ├─ style.css
 │  ├─ style.css.map
 │  └─ style.scss
+├─ Day-8/
+│  ├─ partials/
+│  │  ├─ _mixins.scss
+│  │  └─ _variables.scss
+│  ├─ index.html
+│  ├─ Readme.md
+│  ├─ style.css
+│  ├─ style.css.map
+│  └─ style.scss
+├─ Day-9/
+│  ├─ partials/
+│  │  ├─ _mixins.scss
+│  │  └─ _variables.scss
+│  ├─ index.html
+│  ├─ Readme.md
+│  ├─ style.css
+│  ├─ style.css.map
+│  └─ style.scss
 └─ Readme.md
+
 
 ```
 

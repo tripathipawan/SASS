@@ -1,0 +1,70 @@
+@use "./partials/variables" as *;
+@use "./partials/mixins" as *;
+
+@function spacing($multiplier){
+  @return 8px * $multiplier;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: $bg;
+  @include flex-center;
+}
+
+%card-base {
+  border: 2px solid $border;
+  border-radius: spacing(1.5);
+  color: $color;
+  padding: spacing(1.5);
+  @include flex-center;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+
+.testimonials {
+  width: 85%;
+  max-width: 800px;
+  padding: spacing(1.5) spacing(2);
+  @include flex-center;
+  flex-direction: column;
+
+  h1 {
+    color: $heading;
+    margin-bottom: spacing(2);
+  }
+
+  .testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: spacing(3);
+
+    .testimonial-card {
+      @extend %card-base;
+
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: 2px 3px 4px #ffcece;
+      }
+
+      .author {
+        margin-top: spacing(2.5);
+        color: $heading;
+      }
+
+      .role {
+        color: #ffededb3;
+        font-size: 2rem - 1.2rem;
+        margin-top: spacing(1.5);
+      }
+    }
+  }
+}
